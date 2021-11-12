@@ -1,4 +1,4 @@
-[Please click here for Level-1](https://franco1230.github.io/14-Javascript-Challenge/UFO-level-1)
+# Please [click here] for [Level-1](https://franco1230.github.io/14-Javascript-Challenge/UFO-level-1)
 [Please click here for Level-2](https://franco1230.github.io/14-Javascript-Challenge/UFO-level-2)
 
 # JavaScript Homework - JavaScript and DOM Manipulation
