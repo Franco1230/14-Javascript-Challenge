@@ -15,8 +15,7 @@ function fullTable(tableData) {
 };
   
 // Write table to html
-fullTable(tableData);
-  
+fullTable(tableData);  
   
 // Listen for filter button
 var filterButton = d3.select("#filter-btn");
