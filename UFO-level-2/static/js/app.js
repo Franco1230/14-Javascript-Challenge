@@ -33,7 +33,7 @@ filterButton.on("click", function() {
     var inputCity = d3.select("#city");
     var cityValue = inputCity.property("value").toLowerCase();
     var filteredData = filteredData.toLowerCase().filter(function(event) {
-        if(cityValue !== null && cityValue !== '' && cityValue.includes(cityValue)) {
+        if(cityValue !== null && cityValue !== '') {
             return event.city === cityValue;};
         return event.city;
     });
