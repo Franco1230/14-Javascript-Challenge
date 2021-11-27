@@ -31,53 +31,32 @@ filterButton.on("click", function() {
     });
   
     var inputCity = d3.select("#city");
-<<<<<<< HEAD
     var cityValue = inputCity.property("value").toLowerCase();
-    var filteredData = filteredData.toLowerCase().filter(function(event) {
-        if(cityValue !== null && cityValue !== '' && cityValue.includes(cityValue)) {
-=======
-    var cityValue = inputCity.property("value").toLowerCase().includes();
     var filteredData = filteredData.filter(function(event) {
         if(cityValue !== null && cityValue !== '') {
->>>>>>> parent of 5a60a3c (updated Level-2)
             return event.city === cityValue;};
         return event.city;
     });
             
     var inputState = d3.select("#state");
-<<<<<<< HEAD
     var stateValue = inputState.property("value").toLowerCase();
-    var filteredData = filteredData.toLowerCase().filter(function(event) {
-=======
-    var stateValue = inputState.property("value").toLowerCase().includes();
     var filteredData = filteredData.filter(function(event) {
->>>>>>> parent of 5a60a3c (updated Level-2)
         if(stateValue !== null && stateValue !== '') {
             return event.state === stateValue;};
         return event.state;
     });
             
     var inputCountry = d3.select("#country");
-<<<<<<< HEAD
     var countryValue = inputCountry.property("value").toLowerCase();
-    var filteredData = filteredData.toLowerCase().filter(function(event) {
-=======
-    var countryValue = inputCountry.property("value").toLowerCase().includes();
     var filteredData = filteredData.filter(function(event) {
->>>>>>> parent of 5a60a3c (updated Level-2)
         if(countryValue !== null && countryValue !== '') {
             return event.country === countryValue;};
         return event.country;
     });   
    
     var inputShape = d3.select("#shape");
-<<<<<<< HEAD
     var shapeValue = inputShape.property("value").toLowerCase();
-    var filteredData = filteredData.toLowerCase().filter(function(event) {
-=======
-    var shapeValue = inputShape.property("value").toLowerCase().includes();
     var filteredData = filteredData.filter(function(event) {
->>>>>>> parent of 5a60a3c (updated Level-2)
         if(shapeValue !== null && shapeValue !== '') {
             return event.shape === shapeValue;};
         return event.shape;
