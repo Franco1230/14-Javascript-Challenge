@@ -31,7 +31,7 @@ filterButton.on("click", function() {
     });
   
     var inputCity = d3.select("#city");
-    var cityValue = inputCity.property("value");
+    var cityValue = inputCity.property("value").toLowerCase();
     var filteredData = filteredData.filter(function(event) {
         if(cityValue !== null && cityValue !== '') {
             return event.city === cityValue;};
@@ -39,7 +39,7 @@ filterButton.on("click", function() {
     });
             
     var inputState = d3.select("#state");
-    var stateValue = inputState.property("value");
+    var stateValue = inputState.property("value").toLowerCase();
     var filteredData = filteredData.filter(function(event) {
         if(stateValue !== null && stateValue !== '') {
             return event.state === stateValue;};
@@ -47,7 +47,7 @@ filterButton.on("click", function() {
     });
             
     var inputCountry = d3.select("#country");
-    var countryValue = inputCountry.property("value");
+    var countryValue = inputCountry.property("value").toLowerCase();
     var filteredData = filteredData.filter(function(event) {
         if(countryValue !== null && countryValue !== '') {
             return event.country === countryValue;};
@@ -55,7 +55,7 @@ filterButton.on("click", function() {
     });   
    
     var inputShape = d3.select("#shape");
-    var shapeValue = inputShape.property("value");
+    var shapeValue = inputShape.property("value").toLowerCase();
     var filteredData = filteredData.filter(function(event) {
         if(shapeValue !== null && shapeValue !== '') {
             return event.shape === shapeValue;};
