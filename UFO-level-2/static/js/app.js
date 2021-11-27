@@ -23,7 +23,7 @@ filterButton.on("click", function() {
     filteredData = tableData
     // Select the input element and get the raw HTML node
     var inputDate = d3.select("#datetime");
-    var dateValue = inputDate.property("value").includes();
+    var dateValue = inputDate.property("value").includes(dateValue);
     var filteredData = filteredData.filter(function(event) {
         if(dateValue !== null && dateValue !== '') {
             return event.datetime === dateValue;};
