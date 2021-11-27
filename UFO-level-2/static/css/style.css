@@ -83,6 +83,9 @@ select {
   min-width: 70px;
 }
 
+#filter-btn {
+  background-color: black;
+}
 .loader {
   margin-top: 50px;
 }
